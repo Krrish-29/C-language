@@ -1,0 +1,1 @@
+WWrriittee  aa  pprrooggrraamm  ttoo  rreeaadd  aa  tteexxtt  ffiillee  cchhaarraacctteerr  bbyy  cchhaarraacctteerr  aanndd  wwrriittee  iittss  ccoonntteenntt  ttwwiiccee  iinn  sseeppaarraattee  ffiillee..
