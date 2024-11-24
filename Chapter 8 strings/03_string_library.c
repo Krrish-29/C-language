@@ -3,7 +3,7 @@
 int main(){
     char st[]="Krrish Khowal";
     int length = strlen(st); 
-    printf("%d/n",length);
+    printf("%d\n",length);
 
     char* st1="krrish ";
     char st2[30]="khowal";
