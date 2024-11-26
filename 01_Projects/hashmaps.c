@@ -56,9 +56,9 @@ entry = entry->next;
 }
 
 int main() {
-insert("Geeks", 5);
+insert("Geks", 5);
 insert("GFG", 3);
-insert("GeeksforGeeks", 7);
+insert("Geeeeks", 7);
 printf("Value of complete Map:\n");
 printMap();
 printf("\nValue of GFG: %d\n", get("GFG"));
