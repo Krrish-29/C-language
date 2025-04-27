@@ -1,11 +1,14 @@
 #include<stdio.h>
 void insertionsort(int*ptr,int n){
-    for(int a=0;a<n-1;a++){
-        for(int b=a+1;b>0;b--){
-            if(*(ptr+b-1)>*(ptr+b)){
+    for(int a=1;a<n;a++){
+        for(int b=a-1;b>=0;b--){
+            if(*(ptr+b+1)<*(ptr+b)){
                 int temp=*(ptr+b);
-                *(ptr+b)=*(ptr+b-1);
-                *(ptr+b-1)=temp;
+                *(ptr+b)=*(ptr+b+1);
+                *(ptr+b+1)=temp;
+            }
+            else{
+                break;
             }
         }
     }
